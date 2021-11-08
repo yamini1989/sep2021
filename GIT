@@ -1,0 +1,47 @@
+Git is a Distributed Version Control system.
+Its is free and open source 
+i have used 2.31.1 version in Git
+version cntrol is a practice of tracking and managing the software code
+It stores the data in the form of snapshot thats why it is fast in the performance and it can store huge data
+
+
+
+Type of version control:
+
+1.Local:one on one interaction b/w developer and version control system.Challage:systemdoes not support when multiple developers are working symultaniolusly.
+
+2.Central: multiple developers can work symultaniously .there is a workspace nad central repositary.they can track and move the changes to cental repositary.challange:we have to stay online for merge,brancing,status and all
+
+3.Distributed version control system: it will have working directory,local repositary and central repositary.multiple workers can work symultaniously and we can track and manage code.only for push and pull operation we need to connect to online remaining all operations we can do in offline with the help of local repositary.
+
+
+Git HUB:is a remote repositary, where we host all the repositaries
+
+
+we can intialse the local repositary by using git init command
+.git folder will be created and it will strore the data related to version control like tracking data
+
+
+scenatio 1:
+*****************
+create a file in the local repositary
+
+mkdir Project
+cd Project
+git init    (Intializing a local repositary in the working directory)
+vi file1
+git add *   (now file will be add to the staging area from working directory)
+git commit - m "adding file1"   (now file will move from staging area to local repositary)
+git status
+ls -files
+
+
+scenario 2:
+********************
+ignore file
+paste the target folder in the .git ignore file soo that working tree will be clear and 
+.git ignore 
+
+
+
+
