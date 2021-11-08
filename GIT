@@ -42,6 +42,19 @@ ignore file
 paste the target folder in the .git ignore file soo that working tree will be clear and 
 .git ignore 
 
+scenario 3:
+***************
+what is the branching stratagy you follow
+
+we follwed normal branching stratagy.
+there will be defaut master branch from the master,out of fetch we will create one more branch like develop branch
+
+
+how to configure     git hooks
+*******************
+
+
+
 
 
 
