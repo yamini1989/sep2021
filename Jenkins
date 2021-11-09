@@ -1,0 +1,30 @@
+In the Jenkins we can create multiple jobs in different ways.
+1.Freestyle and Maven jobs:in the free style we have to use in terms of plugins to build jobs,like Git plugin,maven plugin,Ansible plugin
+ challages: from the scrach we have to configure .its not a Infrastructure as a code.its is fixed ,we cant extend as we needed
+ Free styple is a GUI based soo manual intervension will be there.By using script we can do very easyly
+2.Multi branch Pipeline: Pipeline as a code. 
+
+how many ways we can create a pipeline?
+**********************************
+1.using Build-pipeline-plugin
+2.using delivery-pipeline-plugin
+
+entire pipeline will be based on upstream job  and downstream job
+A--->A1--->A2
+Here,A is the upstream job for A1.
+      A1 is upstream job for A2
+      A! is downsream job for A
+      
+Master-Slave Architecture:
+when we have lot of jobs  executed on the master server,then master server will get busy.its not recomanded.
+then for load balance  purpose we will use
+
+jobs will be created on master and workspace will be on the slaves soo that work will be disrtibuted
+
+slave
+--------
+we dont required jenkins to be installed on slave
+jdk,maven and gIt should be install
+
+      
+      
